@@ -1,0 +1,15 @@
+{
+  "includes": ["src"],
+  "compilerOptions": {
+    "allowJs": false, // 允许编译JavaScript文件
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "declaration": true, // 生成相应的 .d.ts文件。
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "src", // 仅用来控制输出的目录结构 --outDir。
+  }
+}

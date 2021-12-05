@@ -1,21 +1,28 @@
 {
-  "name": "rollup-upload-sourcemap-plugin",
-  "version": "1.0.0",
+  "name": "rollup-plugin-upload-sourcemap",
+  "version": "1.0.4",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "DBAAZzz",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^16.11.11",
     "form-data": "^4.0.0",
-    "string-to-file-stream": "^1.3.0"
+    "rollup": "^2.60.2",
+    "string-to-file-stream": "^1.3.0",
+    "typescript": "^4.5.2"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
     "axios": "^0.24.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
